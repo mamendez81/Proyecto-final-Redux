@@ -1,15 +1,18 @@
 {
-  "name": "taller10-redux",
+  "name": "react_redux",
   "version": "1.0.0",
-  "description": "React demo project",
+  "description": "Redux demo project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve --mode development",
+    "build": "npx webpack --mode development"
   },
   "keywords": [
+    "react",
     "redux"
   ],
-  "author": "Miguel",
+  "author": "Eduardo Oviedo",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.6",
@@ -25,6 +28,8 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
   }
 }
